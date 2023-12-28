@@ -42,6 +42,7 @@ namespace PLCtoPCexample
 
         private void Connect_Click(object sender, EventArgs e)
         {
+            //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@꼭 빌드 구성을 X86으로 하세요!!
             ActUtilType = new ActUtlType();
             // ActUtilType.ActLogicalStationNumber값은 MX Component에서 설정한 Station 번호입니다
             ActUtilType.ActLogicalStationNumber = 0;
